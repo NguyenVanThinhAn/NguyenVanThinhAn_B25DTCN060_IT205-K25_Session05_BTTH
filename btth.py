@@ -1,10 +1,10 @@
 # bước 1: nhập số lượng nhân viên và bắt lỗi input
 # bước 2: xử lý thông tin theo từng nhân viên
-    # nhánh: lặp qua từng nhân viên -> nhập tên -> nhập số ngày làm
-    # nhánh: kiểm tra ngày làm hợp lệ (< 0 hoặc > 22) -> Báo lỗi & continue
-    # nhánh: kiểm tra ngày làm == 0 -> In thông báo nghỉ toàn bộ
-    # nhánh: in biểu đồ dấu * bằng nested loop
-    # nhánh: đánh giá mức độ làm việc
+    # lặp qua từng nhân viên -> nhập tên -> nhập số ngày làm
+    # kiểm tra ngày làm hợp lệ (< 0 hoặc > 22) -> Báo lỗi & continue
+    # kiểm tra ngày làm == 0 -> In thông báo nghỉ toàn bộ
+    # in biểu đồ dấu * bằng nested loop
+    # đánh giá mức độ làm việc
 
 employee_quantity = input("Nhập số lượng nhân viên: ")
 while True:
